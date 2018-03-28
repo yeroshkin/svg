@@ -1,1 +1,1 @@
-![](https://raw.githubusercontent.com/yeroshkin/svg/master/meetup.svg?sanitize=true)
+![](https://storage.googleapis.com/weblium-prod/docs/meetup.svg)
