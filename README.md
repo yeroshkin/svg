@@ -1,1 +1,1 @@
-![](https://storage.googleapis.com/weblium-prod/docs/meetup.svg)
+![](https://storage.googleapis.com/weblium-prod/docs/date.svg)
